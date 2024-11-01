@@ -87,6 +87,8 @@ chmod a+rx resize.sh && ./resize.sh 80
 
 ### 인프라 설치하기
 
+github에서 sync를 먼저 합니다. 
+
 1) 소스를 다운로드합니다.
 
 ```java
