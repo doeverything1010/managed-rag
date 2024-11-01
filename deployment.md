@@ -92,6 +92,9 @@ chmod a+rx resize.sh && ./resize.sh 80
 ```java
 git clone https://github.com/doeverything1010/managed-rag
 ```
+```업데이트 시
+git pull https://github.com/doeverything1010/managed-rag
+```
 
 2) cdk 폴더로 이동하여 필요한 라이브러리를 설치합니다.
 
