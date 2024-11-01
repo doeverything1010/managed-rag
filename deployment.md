@@ -164,3 +164,4 @@ lambda-chat-ws에서 다룹니다.
 
 2) lambda_function.py 에서, @tools 추가하고, tools도 추가해서 선택할 수 있게 한다.
 3) @tools의 경우 주석 부분에 있는 keyword 부분을 langchain이 인식해서 자동으로 tools 중 선택할 수 있음
+4) @tools 추가 시, 경수님 github의 langgraph-agent로 들어가서, lambda-upload, lambda-document manager의 함수들 참고해서 작성
