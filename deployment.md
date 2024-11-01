@@ -155,3 +155,12 @@ Tavily의 경우 1000건/월을 허용하므로 여러 건의 credential을 사�
 ![noname](https://github.com/kyopark2014/llm-multimodal-and-rag/assets/52392004/1e273934-07ba-4319-bbdb-82445e424568)
 
 7) Output의 WebUrlformanagedragchatbot 복사하여 브라우저로 접속합니다.
+
+### 파일 수정하기
+
+lambda-chat-ws에서 다룹니다. 
+
+1) Dockerfile 에서, 파이썬 라이브러리(numpy 등) 설치
+
+2) lambda_function.py 에서, @tools 추가하고, tools도 추가해서 선택할 수 있게 한다.
+3) @tools의 경우 주석 부분에 있는 keyword 부분을 langchain이 인식해서 자동으로 tools 중 선택할 수 있음
